@@ -1,5 +1,14 @@
 # AngularPaymentForm
 
+Small Angular app to learn pipes concept. It's using Bootstrap for styling.
+
+Topics:
+TitleCasePipe, datePipe, currencyPipe, decimalPipe, jsonPipe, create custom pipe
+
+Notes:
+#Pipes => functions that format data (strings, dates, amounts, currency); only used in template; some buit-in or can create your own; can use pipes in interpolation, as well in structural directive (ngIf- use parenthesis)
+#Create own pipes command => ng generate pipe <name>.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 13.3.8.
 
 ## Development server
