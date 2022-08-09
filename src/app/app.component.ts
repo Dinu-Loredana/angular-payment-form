@@ -8,11 +8,15 @@ import { Component } from '@angular/core';
 export class AppComponent {
   name: string | undefined;
   date: string | undefined;
+  amount: number | undefined;
 
   onNameChange(value: string) {
     this.name = value;
   }
   onDateChange(value: string) {
     this.date = value;
+  }
+  onAmountChange(value: string) {
+    this.amount = parseFloat(value);
   }
 }
