@@ -6,8 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css'],
 })
 export class AppComponent {
-  name = '';
+  name: string | undefined;
+  date: string | undefined;
+
   onNameChange(value: string) {
     this.name = value;
+  }
+  onDateChange(value: string) {
+    this.date = value;
   }
 }
